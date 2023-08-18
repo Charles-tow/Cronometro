@@ -1,0 +1,43 @@
+body {
+  font-family: 'Share Tech Mono', monospace;
+  text-align: center;
+  background-color: rgb(128, 128, 128);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.timer {
+    font-size: 9em;
+    margin: 10px;
+}
+
+button {
+    font-size: 3em;
+    border-radius: 10%;
+    border: 1px;
+}
+#startStop {
+    background-color: rgba(1, 5, 255, 0.925);
+    font-family: 'Share Tech Mono', monospace;
+    font-weight: bold;
+    font-size: 60px;
+    cursor: pointer;
+    
+}
+
+#reset {
+    font-family: 'Share Tech Mono', monospace;
+    font-weight: bold;
+    background-color: rgba(255, 1, 1, 0.849);
+    font-size: 60px;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 80px;
+    margin: -10px;
+    margin-top: -50px;
+}
+
